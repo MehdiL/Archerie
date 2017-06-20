@@ -1,0 +1,30 @@
+{
+  "development": {
+    "dialect": "postgres",
+    "username": "admin",
+    "password": "adminprojet",
+    "database": "archerie",
+    "host": "localhost",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+
+  },
+  "test": {
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
